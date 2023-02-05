@@ -15,8 +15,8 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  position: relative;
   display: flex;
+  position: relative;
   align-items: center;
 
   /* выше установили ограничения для секции */
@@ -35,12 +35,15 @@
 }
 
 .header__title{
-  font-size: 102px;
-  font-weight: 600px;
+  margin: 0;
+  z-index: 2;
+  font-weight: 600;
   line-height: 96px;
-  width: 730 px;
-  padding-left: 64px;
-  align-items: flex-start;
+  font-size: 102px;
+  width: 730px;
+  margin-left: 64px;
+
+
 }
 
 .header__subtitle {
