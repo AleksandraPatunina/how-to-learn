@@ -260,22 +260,8 @@
   padding-top: 0;
 }
 
-.table__heading {
-  margin: 0;
-  margin-bottom: 20px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
 .table__heading_theme_dark {
   color: white;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .table__text_theme_dark {
