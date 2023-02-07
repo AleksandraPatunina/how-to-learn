@@ -159,6 +159,7 @@
 .table__cell {
   width: 250px;
   padding-top: 60px;
+  margin: 0;
 }
 
 .table__heading {
@@ -227,7 +228,7 @@
   text-decoration: none;
 }
 
-/*Р‘Р»РѕРє kaufman*/
+/* kaufman*/
 .kaufman {
   overflow: hidden;
   display: flex;
@@ -237,41 +238,17 @@
   background-color: #1f1f1f;
 }
 
-.section-title {
-  margin: 0;
-  margin-top: 90px;
-  margin-bottom: 20px;
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
 .section-title_theme_dark {
   z-index: 2;
   margin-top: 90px;
   color: white;
 }
 
-.section-subtitle {
-  width: 60%;
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}
-
 .section-subtitle_theme_dark {
   color: white;
   z-index: 2;
-}
-
-.table__cell {
-  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .table__cell_theme_dark {
@@ -280,6 +257,7 @@
   margin-top: 80px;
   z-index: 2;
   color: white;
+  padding-top: 0;
 }
 
 .table__heading {
@@ -336,7 +314,6 @@
   flex-basis: 711px;
   position: relative;
   margin: 0;
-  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
